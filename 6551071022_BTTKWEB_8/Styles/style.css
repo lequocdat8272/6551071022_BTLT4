@@ -1,0 +1,22 @@
+.header {
+    text-align: center;
+    color:  green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.all {
+    border: 2px solid white; 
+    box-shadow: 4px 4px 10px black; 
+    width: 700px;
+}
+
+.table {
+    background-color: rgba(0, 128, 0, 0.299);
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    border-collapse: collapse;
+    border-color: black;
+}
+
