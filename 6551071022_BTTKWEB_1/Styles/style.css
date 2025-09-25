@@ -1,0 +1,32 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
+
+.i {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    background-color: pink;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content {
+    background-color: beige;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 0.5;
+    text-align: center;
+    padding: 1px;
+    font-style: italic;
+}
