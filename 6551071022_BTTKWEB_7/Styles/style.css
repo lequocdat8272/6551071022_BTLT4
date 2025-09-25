@@ -1,0 +1,22 @@
+.header {
+    text-align: center;
+    color:  rgb(255, 123, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.all {
+    border: 2px solid white; 
+    box-shadow: 4px 4px 10px black; 
+    width: 300px;
+}
+
+.table {
+    background-color: aqua;
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    border-collapse: collapse;
+    border-color: rgb(255, 123, 0);
+}
+
