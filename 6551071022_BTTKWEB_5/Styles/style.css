@@ -17,3 +17,7 @@
     border-collapse: collapse;
     border-color: orange;
 }
+
+.text {
+    text-align: left;
+}
