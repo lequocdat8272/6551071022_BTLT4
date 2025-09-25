@@ -1,0 +1,106 @@
+.header {
+    text-align: left;
+    background-color: rgb(84, 46, 0);
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.header1 {
+    text-align: left;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(84, 46, 0);
+    padding: 10px;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+}
+
+.main {
+    background-color: rgb(101, 79, 38);
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    margin: auto;
+}
+
+.price {
+    color: red;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.logofl {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(101, 79, 38);
+    display: flex;
+}
+
+ul.nav li {
+    position: relative;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    white-space: nowrap;
+}
+
+ul.nav li a:hover {
+    color: black;
+    background-color: rgb(255, 136, 0);
+}
+
+ul.nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: orange;
+    min-width: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.nav li:hover > ul {
+    display: block;
+}
+
+.text {
+    color: rgb(240, 218, 179);
+    text-align: left;
+}
+
+.text1 {
+    color: red;
+    text-align: right;
+}
