@@ -9,14 +9,24 @@
     border: 2px solid white; 
     box-shadow: 4px 4px 10px black; 
     width: 700px;
+    overflow-y: scroll;
 }
 
 .table {
     background-color: rgba(0, 128, 0, 0.299);
-    width: 100%;
+    width: 90%;
     text-align: left;
     line-height: 30px;
     border-collapse: collapse;
     border-color: black;
+    margin: 20px;
 }
 
+.tdhidden {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.text {
+    color: green;
+}

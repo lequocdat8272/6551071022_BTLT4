@@ -19,7 +19,11 @@
                 <td><input></td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align: center;"><button onclick="alert(document.getElementById('Dangnhap').value)">Đồng ý</button></td>
+                <td colspan="2" style="text-align: center;"><button type="button" onclick="document.getElementById('ketqua').hidden = false; document.getElementById('ketqua').textContent = document.getElementById('Dangnhap').value"">Đồng ý</button>
+                </td>
+            </tr>
+            <tr>
+                <td id="ketqua" hidden colspan="2" class="tdhidden"></td>
             </tr>
         </table>
     </div>

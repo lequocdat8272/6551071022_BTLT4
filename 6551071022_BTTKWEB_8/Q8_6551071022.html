@@ -11,23 +11,26 @@
         <h1 class="header">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
         <table border="2" class="table">
             <tr>
-                <td>Họ và Tên</td>
+                <td class="text">Họ và Tên</td>
                 <td><input style="width: 300px;"></td>
             </tr>
             <tr>
-                <td>Địa chỉ</td>
+                <td class="text">Địa chỉ</td>
                 <td><input style="width: 250px;""></td>
             </tr>
             <tr>
-                <td>Điện thoại</td>
+                <td class="text">Điện thoại</td>
                 <td><input style="width: 200px;"></td>
             </tr>
             <tr>
-                <td>Phái</td>
-                <td> <input type="radio">Nam</input> <input type="radio">Nữ</input> </td>
+                <td class="text">Phái</td>
+                <td class="text"> 
+                    <input type="radio">Nam</input> 
+                    <input type="radio">Nữ</input> 
+                </td>
             </tr>
             <tr>
-                <td>Nghề nghiệp</td>
+                <td class="text">Nghề nghiệp</td>
                 <td> 
                     <select> 
                         <option>Giáo viên</option> 
@@ -39,7 +42,7 @@
                 </td>
             </tr>
             <tr>
-                <td>Chọn sản phẩm tham gia</td>
+                <td class="text">Chọn sản phẩm tham gia</td>
                 <td> 
                     <select multiple size="4"> 
                         <option>Kem đánh răng</option>
@@ -50,7 +53,7 @@
                 </td>
             </tr>
             <tr>
-                <td>Số người dự đoán tham gia</td>
+                <td class="text">Số người dự đoán tham gia</td>
                 <td> <input style="width: 100px;"> </td>
             </tr>
             <tr>
@@ -58,8 +61,10 @@
                     <button type="button" onclick="document.getElementById('thanhcong').hidden=false">Đồng ý</button>
                 </td>
             </tr>
+            <tr>
+                <td colspan="2" hidden id="thanhcong" class="tdhidden">Bạn đã đăng ký thành công!!</td>
+            </tr>
         </table>
-        <p hidden id="thanhcong">Bạn đã đăng ký thành công!!</p>
     </div>
 </body>
 </html>
