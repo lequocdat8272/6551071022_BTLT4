@@ -12,3 +12,5 @@ changelog:
 9h20: Bài 5
 
 10h00: Bài 6
+
+10h30: Bài 7
