@@ -36,7 +36,7 @@
 }
 
 .sidebar {
-    width: 400px;
+    width: 20%;
     border: 2px solid #ecf0f1;
     border-collapse: collapse;
     margin-top: 5px;
@@ -134,7 +134,7 @@ ul.nav li ul li ul {
 }
 
 .img {
-    width: 400px;
+    width: 50%;
     height: auto;
     margin-right: 10px;
 }
@@ -151,18 +151,11 @@ ul.nav li ul li ul {
 }
 
 .table {
-    padding: 20px;
-    margin: 20px;
-    width: 1000px;
+    width: 100%;
 }
 
 .price {
     color: red;
-}
-
-.header, .header1, nav, footer {
-    width: 100%;
-    box-sizing: border-box;
 }
 
 footer a {
