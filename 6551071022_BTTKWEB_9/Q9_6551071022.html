@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangnhap</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="all">
+        <h1 class="header">Đăng ký du lịch</h1>
+        <table border="2" class="table">
+            <tr>
+                <td class="text">Họ và Tên</td>
+                <td><input style="width: 300px;"></td>
+            </tr>
+            <tr>
+                <td class="text">Địa chỉ</td>
+                <td><input style="width: 250px;""></td>
+            </tr>
+            <tr>
+                <td class="text">Điện thoại</td>
+                <td><input style="width: 200px;"></td>
+            </tr>
+            <tr>
+                <td class="text">Khách Việt Nam</td>
+                <td> <input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="text">Chọn tour</td>
+                <td> 
+                    <select> 
+                        <option>Buôn mê thuột - Gia lai - Kontum</option> 
+                        <option>Hồ Chí Minh - Bà Rịa - Vũng Tàu</option> 
+                        <option>Đà Lạt - Nha Trang - Đà Nẵng</option> 
+                    </select> 
+                </td>
+            </tr>
+            <tr>
+                <td class="text">Phương tiện</td>
+                <td class="text"> 
+                    <input type="radio">Máy bay</input> 
+                    <input type="radio">Xe ô tô</input> 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset class="field">
+                        <legend>Số lượng đoàn khách</legend>
+                        <span class="text">Người lớn <input size="4"></input> Trẻ em <input size="4"></input> </span>                           
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">Ghi chú thêm</td>
+                <td> 
+                    <textarea>
+                    </textarea> 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="button" onclick="document.getElementById('thanhcong').hidden=false">Đồng ý</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" hidden id="thanhcong" class="tdhidden">Bạn đã đăng ký thành công!!</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
