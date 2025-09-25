@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.th {
+    color: white;
+    background-color: red;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    border-collapse: collapse;
+    border-color: orange;
+}
