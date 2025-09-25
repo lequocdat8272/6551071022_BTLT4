@@ -1,0 +1,114 @@
+.header {
+    text-align: center;
+    background-color: rgb(0, 0, 168);
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.header1 {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 400px;
+    border: 2px solid #ecf0f1;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.list {
+    list-style-type: square;
+    color: black;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    display: flex;
+}
+
+ul.navside {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li {
+    position: relative;
+}
+
+ul.navside > li {
+    border-right: 1px solid white;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    white-space: nowrap;
+}
+
+ul.navside li a {
+    display: block;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: #ecf0f1;
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+ul.nav li a:hover {
+    color: black;
+    background-color: rgb(255, 136, 0);
+}
+
+ul.navside li a:hover {
+    color: orange;
+}
+
+ul.nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: orange;
+    min-width: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.nav li:hover > ul {
+    display: block;
+}
+
+ul.nav li ul li {
+    border-bottom: 1px solid white;
+    list-style-type: none;
+}
+
+ul.nav li ul li ul {
+    top: 0;
+    left: 100%;
+}
