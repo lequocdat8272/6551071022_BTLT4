@@ -1,5 +1,5 @@
 # 6551071022_BTLT4
-changelog:
+finish:
 
 8h05: Bài 1
 
@@ -17,8 +17,10 @@ changelog:
 
 11h15: Bài 8
 
-1h50: Bài 9
+13h50: Bài 9
 
-2h20: Bài 10
+14h20: Bài 10
 
-3h40: Bài 11
+15h40: Bài 11
+
+18h15: Bài 12
