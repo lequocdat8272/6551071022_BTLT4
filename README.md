@@ -16,3 +16,5 @@ changelog:
 10h30: Bài 7
 
 11h15: Bài 8
+
+1h50: Bài 9
