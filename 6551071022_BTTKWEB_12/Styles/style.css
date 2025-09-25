@@ -1,0 +1,176 @@
+.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.header1 {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    line-height: 15px;
+    color: black;
+}
+
+.text {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+}
+
+.sidebar {
+    width: 400px;
+    border: 2px solid #ecf0f1;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.main {
+      flex: 1;
+      background: #ecf0f1;
+      padding: 20px;
+      margin-top: 5px;
+}
+
+.list {
+    list-style-type: square;
+    color: black;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    display: flex;
+}
+
+ul.navside {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li {
+    position: relative;
+}
+
+ul.navside > li {
+    border-right: 1px solid white;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    white-space: nowrap;
+}
+
+ul.navside li a {
+    display: block;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: #E5E5E5;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: Tahoma;
+}
+
+ul.nav li a:hover {
+    color: black;
+    background-color: rgb(255, 136, 0);
+}
+
+ul.navside li a:hover {
+    color: orange;
+}
+
+ul.nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: orange;
+    min-width: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.nav li:hover > ul {
+    display: block;
+}
+
+ul.nav li ul li {
+    border-bottom: 1px solid white;
+    list-style-type: none;
+}
+
+ul.nav li ul li ul {
+    top: 0;
+    left: 100%;
+}
+
+.img {
+    width: 400px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.box-info {
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+}
+
+.table {
+    padding: 20px;
+    margin: 20px;
+    width: 1000px;
+}
+
+.price {
+    color: red;
+}
+
+.header, .header1, nav, footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
+
+footer a:hover {
+  color: white;
+}
