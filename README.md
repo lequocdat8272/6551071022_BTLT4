@@ -6,3 +6,5 @@ changelog:
 8h25: Bài 2
 
 8h45: Bài 3
+
+9h00: Bài 4
