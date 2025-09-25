@@ -1,0 +1,14 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.code {
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    padding-left: 150px;
+    font-size: 12px;
+}
